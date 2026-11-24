@@ -57,7 +57,7 @@ class MainActivity : Activity() {
 
         val labelInput = EditText(this).apply {
             hint = "Profile label (e.g. Personal, Work, SIM 2)"
-            singleLine = true
+            maxLines = 1
         }
         page.addView(labelInput)
 
